@@ -2,9 +2,11 @@
 
 RaspberryPi pinout React component
 
+Heavily inspired from http://pinout.xyz
+
 ![demo](./demo.png)
 
-[Demo](demo)
+[Demo][demo]
 
 ## Usage
 
