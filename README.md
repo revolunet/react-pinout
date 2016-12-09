@@ -2,7 +2,7 @@
 
 RaspberryPi pinout React component
 
-Heavily inspired from http://pinout.xyz
+Heavily inspired from [pinout.xyz](http://pinout.xyz)
 
 ![demo](./demo.png)
 
@@ -30,7 +30,7 @@ const RaspberryPi = <ReactPinout pins={ pins } onClick={ pin => redirect(pin.hre
 }
 ```
 
-[npm-badge]: https://img.shields.io/npm/v/npm-package.png?style=flat-square
-[npm]: https://www.npmjs.org/package/npm-package
+[npm-badge]: https://img.shields.io/npm/v/react-pinout.png?style=flat-square
+[npm]: https://www.npmjs.org/package/react-pinout
 
 [demo]: http://revolunet.github.io/react-pinout

@@ -7,7 +7,7 @@ let Demo = React.createClass({
   render() {
     return <div>
       <h1>react-pinout Demo</h1>
-      <Component/>
+      <Component onClick={ pin => alert(`clicked ${pin.label}`) }/>
     </div>
   }
 })

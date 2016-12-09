@@ -18,7 +18,7 @@ export const PinsColumn = styled.div`
   list-style: none;
   left: 0px;
 
-  a {
+  div {
     display:block;
     position:relative;
     font-size:15px;
@@ -26,13 +26,14 @@ export const PinsColumn = styled.div`
     height:22px;
     margin-bottom:2px;
     text-decoration: none;
+    cursor:pointer;
   }
 
-  a small {
+  div small {
     font-size:11px;
   }
 
-  a .phys {
+  div .phys {
     color: #073642;
     font-size: 0.8em;
     opacity: 0.8;
@@ -41,7 +42,7 @@ export const PinsColumn = styled.div`
     text-indent: 0;
   }
 
-  a:hover,
+  div:hover,
   .active {
     background:rgb(245, 243, 237);
     color:#063541;
@@ -49,7 +50,7 @@ export const PinsColumn = styled.div`
 `;
 
 export const PinsLeft = styled(PinsColumn)`
-  a {
+  div {
     width:244px;
     text-indent: 10px;
     color: #E9E5D2;
@@ -57,20 +58,20 @@ export const PinsLeft = styled(PinsColumn)`
     border-bottom-right-radius: 13px;
   }
 
-  a .phys {
+  div .phys {
     text-align: right;
     left: auto;
     right: 30px;
   }
 
-  a:first-child {
+  div:first-child {
     border-radius: 0;
   }
 `;
 
 export const PinsRight = styled(PinsColumn)`
   left:246px;
-  a {
+  div {
     text-indent:56px;
     color: #063541;
     width: 250px;
