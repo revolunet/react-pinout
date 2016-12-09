@@ -1,6 +1,5 @@
 [
   {
-    "className": "pin1 pow3v3",
     "physicalPort": 1,
     "href": "/pinout/pin1_3v3_power",
     "title": "",
@@ -10,7 +9,6 @@
     "color": "#B58900"
   },
   {
-    "className": "pin2 pow5v",
     "physicalPort": 2,
     "href": "/pinout/pin2_5v_power",
     "title": "",
@@ -19,7 +17,6 @@
     "color": "#DC322F"
   },
   {
-    "className": "pin3 gpio i2c",
     "physicalPort": 3,
     "href": "/pinout/pin3_gpio2",
     "title": "Wiring Pi pin 8",
@@ -28,7 +25,6 @@
     "color": "#268BD2"
   },
   {
-    "className": "pin4 pow5v",
     "physicalPort": 4,
     "href": "/pinout/pin4_5v_power",
     "title": "",
@@ -37,7 +33,6 @@
     "color": "#DC322F"
   },
   {
-    "className": "pin5 gpio i2c",
     "physicalPort": 5,
     "href": "/pinout/pin5_gpio3",
     "title": "Wiring Pi pin 9",
@@ -46,7 +41,6 @@
     "color": "#268BD2"
   },
   {
-    "className": "pin6 gnd",
     "physicalPort": 6,
     "href": "/pinout/ground",
     "title": "",
@@ -54,7 +48,6 @@
     "label": "Ground"
   },
   {
-    "className": "pin7 gpio",
     "physicalPort": 7,
     "href": "/pinout/pin7_gpio4",
     "title": "Wiring Pi pin 7",
@@ -63,7 +56,6 @@
     "color": "#859900"
   },
   {
-    "className": "pin8 gpio uart",
     "physicalPort": 8,
     "href": "/pinout/pin8_gpio14",
     "title": "Wiring Pi pin 15",
@@ -72,7 +64,6 @@
     "color": "#6c71c4"
   },
   {
-    "className": "pin9 gnd",
     "physicalPort": 9,
     "href": "/pinout/ground",
     "title": "",
@@ -80,7 +71,6 @@
     "label": "Ground"
   },
   {
-    "className": "pin10 gpio uart",
     "physicalPort": 10,
     "href": "/pinout/pin10_gpio15",
     "title": "Wiring Pi pin 16",
@@ -89,7 +79,6 @@
     "color": "#6c71c4"
   },
   {
-    "className": "pin11 gpio",
     "physicalPort": 11,
     "href": "/pinout/pin11_gpio17",
     "title": "Wiring Pi pin 0",
@@ -98,7 +87,6 @@
     "color": "#859900"
   },
   {
-    "className": "pin12 gpio",
     "physicalPort": 12,
     "href": "/pinout/pin12_gpio18",
     "title": "Wiring Pi pin 1",
@@ -107,7 +95,6 @@
     "color": "#859900"
   },
   {
-    "className": "pin13 gpio",
     "physicalPort": 13,
     "href": "/pinout/pin13_gpio27",
     "title": "Wiring Pi pin 2",
@@ -116,7 +103,6 @@
     "color": "#859900"
   },
   {
-    "className": "pin14 gnd",
     "physicalPort": 14,
     "href": "/pinout/ground",
     "title": "",
@@ -124,7 +110,6 @@
     "label": "Ground"
   },
   {
-    "className": "pin15 gpio",
     "physicalPort": 15,
     "href": "/pinout/pin15_gpio22",
     "title": "Wiring Pi pin 3",
@@ -133,7 +118,6 @@
     "color": "#859900"
   },
   {
-    "className": "pin16 gpio",
     "physicalPort": 16,
     "href": "/pinout/pin16_gpio23",
     "title": "Wiring Pi pin 4",
@@ -142,7 +126,6 @@
     "color": "#859900"
   },
   {
-    "className": "pin17 pow3v3",
     "physicalPort": 17,
     "href": "/pinout/pin17_3v3_power",
     "title": "",
@@ -151,7 +134,6 @@
     "color": "#B58900"
   },
   {
-    "className": "pin18 gpio",
     "physicalPort": 18,
     "href": "/pinout/pin18_gpio24",
     "title": "Wiring Pi pin 5",
@@ -160,7 +142,6 @@
     "color": "#859900"
   },
   {
-    "className": "pin19 gpio spi",
     "physicalPort": 19,
     "href": "/pinout/pin19_gpio10",
     "title": "Wiring Pi pin 12",
@@ -169,7 +150,6 @@
     "color": "#D33682"
   },
   {
-    "className": "pin20 gnd",
     "physicalPort": 20,
     "href": "/pinout/ground",
     "title": "",
@@ -177,7 +157,6 @@
     "label": "Ground"
   },
   {
-    "className": "pin21 gpio spi",
     "physicalPort": 21,
     "href": "/pinout/pin21_gpio9",
     "title": "Wiring Pi pin 13",
@@ -186,7 +165,6 @@
     "color": "#D33682"
   },
   {
-    "className": "pin22 gpio",
     "physicalPort": 22,
     "href": "/pinout/pin22_gpio25",
     "title": "Wiring Pi pin 6",
@@ -195,7 +173,6 @@
     "color": "#859900"
   },
   {
-    "className": "pin23 gpio spi",
     "physicalPort": 23,
     "href": "/pinout/pin23_gpio11",
     "title": "Wiring Pi pin 14",
@@ -204,7 +181,6 @@
     "color": "#D33682"
   },
   {
-    "className": "pin24 gpio spi",
     "physicalPort": 24,
     "href": "/pinout/pin24_gpio8",
     "title": "Wiring Pi pin 10",
@@ -213,7 +189,6 @@
     "color": "#D33682"
   },
   {
-    "className": "pin25 gnd",
     "physicalPort": 25,
     "href": "/pinout/ground",
     "title": "",
@@ -221,7 +196,6 @@
     "label": "Ground"
   },
   {
-    "className": "pin26 gpio spi",
     "physicalPort": 26,
     "href": "/pinout/pin26_gpio7",
     "title": "Wiring Pi pin 11",
@@ -230,7 +204,6 @@
     "color": "#D33682"
   },
   {
-    "className": "pin27 gpio i2c",
     "physicalPort": 27,
     "href": "/pinout/pin27_gpio0",
     "title": "Wiring Pi pin 30",
@@ -239,7 +212,6 @@
     "color": "#268BD2"
   },
   {
-    "className": "pin28 gpio i2c",
     "physicalPort": 28,
     "href": "/pinout/pin28_gpio1",
     "title": "Wiring Pi pin 31",
@@ -248,7 +220,6 @@
     "color": "#268BD2"
   },
   {
-    "className": "pin29 gpio",
     "physicalPort": 29,
     "href": "/pinout/pin29_gpio5",
     "title": "Wiring Pi pin 21",
@@ -257,7 +228,6 @@
     "color": "#859900"
   },
   {
-    "className": "pin30 gnd",
     "physicalPort": 30,
     "href": "/pinout/ground",
     "title": "",
@@ -265,7 +235,6 @@
     "label": "Ground"
   },
   {
-    "className": "pin31 gpio",
     "physicalPort": 31,
     "href": "/pinout/pin31_gpio6",
     "title": "Wiring Pi pin 22",
@@ -274,7 +243,6 @@
     "color": "#859900"
   },
   {
-    "className": "pin32 gpio",
     "physicalPort": 32,
     "href": "/pinout/pin32_gpio12",
     "title": "Wiring Pi pin 26",
@@ -283,7 +251,6 @@
     "color": "#859900"
   },
   {
-    "className": "pin33 gpio",
     "physicalPort": 33,
     "href": "/pinout/pin33_gpio13",
     "title": "Wiring Pi pin 23",
@@ -292,7 +259,6 @@
     "color": "#859900"
   },
   {
-    "className": "pin34 gnd",
     "physicalPort": 34,
     "href": "/pinout/ground",
     "title": "",
@@ -300,7 +266,6 @@
     "label": "Ground"
   },
   {
-    "className": "pin35 gpio spi",
     "physicalPort": 35,
     "href": "/pinout/pin35_gpio19",
     "title": "Wiring Pi pin 24",
@@ -309,7 +274,6 @@
     "color": "#D33682"
   },
   {
-    "className": "pin36 gpio",
     "physicalPort": 36,
     "href": "/pinout/pin36_gpio16",
     "title": "Wiring Pi pin 27",
@@ -318,7 +282,6 @@
     "color": "#859900"
   },
   {
-    "className": "pin37 gpio",
     "physicalPort": 37,
     "href": "/pinout/pin37_gpio26",
     "title": "Wiring Pi pin 25",
@@ -327,7 +290,6 @@
     "color": "#859900"
   },
   {
-    "className": "pin38 gpio spi",
     "physicalPort": 38,
     "href": "/pinout/pin38_gpio20",
     "title": "Wiring Pi pin 28",
@@ -336,7 +298,6 @@
     "color": "#D33682"
   },
   {
-    "className": "pin39 gnd",
     "physicalPort": 39,
     "href": "/pinout/ground",
     "title": "",
@@ -344,7 +305,6 @@
     "label": "Ground"
   },
   {
-    "className": "pin40 gpio spi",
     "physicalPort": 40,
     "href": "/pinout/pin40_gpio21",
     "title": "Wiring Pi pin 29",

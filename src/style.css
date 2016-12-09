@@ -1,50 +1,50 @@
-.Pinout {
-  width: 500px;
-}
+/*
+// .Pinout {
+//   width: 500px;
+// }
 
-.Pinout a {
-  text-decoration: none;
-}
+// .Pinout div.gpio {
+//   position: relative;
+//   width: 292px;
+//   background: #5F8645;
+//   min-height: 653px;
+//   margin-right: 208px;
+//   border-top-right-radius: 46px;
+//   border-bottom-right-radius: 46px;
+//   text-align: left;
+// }
+*/
+/*
+// .Pinout div.gpio::before,
+// .Pinout div.gpio::after {
+//   content: '';
+//   display: block;
+//   width: 28px;
+//   height: 28px;
+//   background: #FFFFFF;
+//   border-radius: 50%;
+//   border: 14px solid #F7DF84;
+//   right: 19px;
+//   top: 19px;
+//   position: absolute;
+// }
 
-.Pinout div.gpio {
-  position: relative;
-  width: 292px;
-  background: #5F8645;
-  min-height: 653px;
-  margin-right: 208px;
-  border-top-right-radius: 46px;
-  border-bottom-right-radius: 46px;
-  text-align: left;
-}
-
-.Pinout div.gpio::before,
-.Pinout div.gpio::after {
-  content: '';
-  display: block;
-  width: 28px;
-  height: 28px;
-  background: #FFFFFF;
-  border-radius: 50%;
-  border: 14px solid #F7DF84;
-  right: 19px;
-  top: 19px;
-  position: absolute;
-}
-
-.Pinout div.gpio::after {
-  top: auto;
-  bottom: 19px;
-}
-
-.Pinout .header {
-  width: 58px;
-  position: absolute;
-  left: 216px;
-  height: 493px;
-  background: #073642;
-  top: 80px;
-}
-
+// .Pinout div.gpio::after {
+//   top: auto;
+//   bottom: 19px;
+// }
+*/
+/*
+// .Pinout .header {
+//   width: 58px;
+//   position: absolute;
+//   left: 216px;
+//   height: 493px;
+//   background: #073642;
+//   top: 80px;
+// }
+*/
+/*
 .Pinout .gpio ul {
   position: absolute;
   padding: 0;
@@ -61,32 +61,34 @@
 .Pinout .gpio .right li {
   text-indent:56px;
 }
+*/
+/*
 
-.Pinout .gpio a {
-  display:block;
-  position:relative;
-  font-size:15px;
-  line-height:23px;
-  height:22px;
-  margin-bottom:2px;
-}
+// .Pinout .gpio a {
+//   display:block;
+//   position:relative;
+//   font-size:15px;
+//   line-height:23px;
+//   height:22px;
+//   margin-bottom:2px;
+// }
 
-.Pinout .gpio .right a {
-  color: #063541;
-  width: 250px;
-  border-top-left-radius: 13px;
-  border-bottom-left-radius: 13px;
-}
+// .Pinout .gpio .right a {
+//   color: #063541;
+//   width: 250px;
+//   border-top-left-radius: 13px;
+//   border-bottom-left-radius: 13px;
+// }
 
-.Pinout .gpio .left a {
-  width:244px;
-  border-top-right-radius:13px;
-  border-bottom-right-radius:13px;
-  text-indent: 10px;
-  color: #E9E5D2;
-}
-
-
+// .Pinout .gpio .left a {
+//   width:244px;
+//   border-top-right-radius:13px;
+//   border-bottom-right-radius:13px;
+//   text-indent: 10px;
+//   color: #E9E5D2;
+// }
+*/
+/*
 .Pinout .gpio a:hover,
 .Pinout .gpio .active a {
   background:rgb(245, 243, 237);
@@ -97,7 +99,8 @@
 .Pinout .gpio .pin1.active a {border-radius:0;}
 
 .Pinout .gpio li a small {font-size:11px;}
-
+*/
+/*
 .Pinout .gpio .overlay-pin a {
     background:rgb(235, 230, 211);
     color:#063541;
@@ -156,30 +159,30 @@
 article .pin-hover {cursor:help;}
 article .pin-hover:hover {color:#880000;}
 article img {max-width:100%;}
-*/
+
 .Pinout .gpio ul li.hover-pin a,
 .Pinout .gpio ul.left li.hover-pin a {
     color:#FFF;
     background:rgba(200,0,0,0.6);
 }
 
-.Pinout .gpio ul.left a {
-    text-indent:10px;
-}
+*/
 
 
 
-.Pinout .gpio .left .phys {
-    text-align: right;
-    left: auto;
-    right: 30px;
-}
+/*
+// .Pinout .gpio .left .phys {
+//     text-align: right;
+//     left: auto;
+//     right: 30px;
+// }
 
-.Pinout .gpio .phys {
-    color: #073642;
-    font-size: 0.8em;
-    opacity: 0.8;
-    position: absolute;
-    left: 30px;
-    text-indent: 0;
-}
+// .Pinout .gpio .phys {
+//     color: #073642;
+//     font-size: 0.8em;
+//     opacity: 0.8;
+//     position: absolute;
+//     left: 30px;
+//     text-indent: 0;
+// }
+*/
