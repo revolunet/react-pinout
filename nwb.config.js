@@ -12,6 +12,13 @@ module.exports = {
   webpack: {
     html: {
       template: 'src/index.html'
+    },
+    loaders: {
+      babel: {
+        query: {
+          babelrc: true
+        }
+      }
     }
   }
 }

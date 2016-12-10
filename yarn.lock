@@ -798,7 +798,7 @@ babel-plugin-transform-export-extensions@^6.3.13:
     babel-plugin-syntax-export-extensions "^6.8.0"
     babel-runtime "^6.0.0"
 
-babel-plugin-transform-flow-strip-types@^6.3.13:
+babel-plugin-transform-flow-strip-types, babel-plugin-transform-flow-strip-types@^6.3.13:
   version "6.18.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-transform-flow-strip-types/-/babel-plugin-transform-flow-strip-types-6.18.0.tgz#4d3e642158661e9b40db457c004a30817fa32592"
   dependencies:
@@ -2293,6 +2293,10 @@ find-up@^1.0.0, find-up@^1.1.2:
 flatten@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/flatten/-/flatten-1.0.2.tgz#dae46a9d78fbe25292258cc1e780a41d95c03782"
+
+flow-bin:
+  version "0.36.0"
+  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.36.0.tgz#557907bd9c2ab0670cfad9e7e906a74b0631e39a"
 
 for-in@^0.1.5:
   version "0.1.6"

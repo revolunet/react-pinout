@@ -16,6 +16,7 @@
     "clean": "nwb clean-module && npm clean-demo",
     "start": "nwb serve-react-demo",
     "test": "jest",
+    "flow": "flow",
     "test:coverage": "nwb test-react --coverage",
     "test:watch": "nwb test-react --server",
     "gh-pages": "gh-pages -d demo/dist",
@@ -29,6 +30,8 @@
     "react": "15.x"
   },
   "devDependencies": {
+    "babel-plugin-transform-flow-strip-types": "^6.18.0",
+    "flow-bin": "^0.36.0",
     "gh-pages": "^0.12.0",
     "jest": "^17.0.3",
     "nwb": "0.13.x",
