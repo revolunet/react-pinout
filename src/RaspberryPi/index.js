@@ -1,5 +1,4 @@
 // @flow
-
 import React from 'react';
 
 import Pin from './Pin';
@@ -12,18 +11,18 @@ import {
   PinsRight
 } from './styled'
 
-const RaspberryPi = (props: { pins: Array<Object>, title: String, onClick: Function }) => {
-  const leftColPins = props.pins.filter((p, i) => (i % 2 === 0));
-  const rightColPins = props.pins.filter((p, i) => (i % 2 === 1));
+const RaspberryPi = ({ pins, title, onClick } : { pins: Array<Object>, title: String, onClick: Function }) => {
+  const leftColPins = pins.filter((p, i) => (i % 2 === 0));
+  const rightColPins = pins.filter((p, i) => (i % 2 === 1));
   return (
     <Pinout>
-      <Title>{ props.title }</Title>
+      <Title>{ title }</Title>
       <PinsHeader />
       <PinsLeft>
-        { leftColPins.map((pin, i) => <Pin onClick={ () => props.onClick(pin) } key={ i } { ...pin }/>) }
+        { leftColPins.map((pin, i) => <Pin onClick={ () => onClick(pin) } key={ i } { ...pin }/>) }
       </PinsLeft>
       <PinsRight>
-        { rightColPins.map((pin, i) => <Pin onClick={ () => props.onClick(pin) } key={ i } { ...pin } pictoStyle={ { left: 2, top: 2 } } />) }
+        { rightColPins.map((pin, i) => <Pin onClick={ () => onClick(pin) } key={ i } { ...pin } pictoStyle={ { left: 2, top: 2 } } />) }
       </PinsRight>
     </Pinout>
   )

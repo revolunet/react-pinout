@@ -9,16 +9,13 @@ module.exports = {
       }
     }
   },
+  babel: {
+    plugins: ["transform-flow-strip-types"],
+    presets: ["stage-0"]
+  },
   webpack: {
     html: {
       template: 'src/index.html'
-    },
-    loaders: {
-      babel: {
-        query: {
-          babelrc: true
-        }
-      }
     }
   }
 }

@@ -1,5 +1,5 @@
+// @flow
 import React from 'react';
-
 
 const Picto = ({ color='#002B36', shape='circle', style={} }) => {
   const borderRadius = shape === 'circle' ? '50%': 0;
