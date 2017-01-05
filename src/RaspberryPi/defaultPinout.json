@@ -2,6 +2,7 @@
   {
     "physicalPort": 1,
     "href": "/pinout/pin1_3v3_power",
+    "type": "power",
     "title": "",
     "details": "",
     "label": "3v3 Power",
@@ -11,15 +12,19 @@
   {
     "physicalPort": 2,
     "href": "/pinout/pin2_5v_power",
+    "type": "power",
     "title": "",
     "details": "",
+    "active": true,
     "label": "5v Power",
     "color": "#DC322F"
   },
   {
     "physicalPort": 3,
     "href": "/pinout/pin3_gpio2",
+    "type": "gpio",
     "title": "Wiring Pi pin 8",
+    "active": true,
     "details": "(SDA)",
     "label": "BCM 2",
     "color": "#268BD2"
@@ -27,6 +32,7 @@
   {
     "physicalPort": 4,
     "href": "/pinout/pin4_5v_power",
+    "type": "power",
     "title": "",
     "details": "",
     "label": "5v Power",
@@ -35,6 +41,7 @@
   {
     "physicalPort": 5,
     "href": "/pinout/pin5_gpio3",
+    "type": "gpio",
     "title": "Wiring Pi pin 9",
     "details": "(SCL)",
     "label": "BCM 3",
@@ -43,6 +50,8 @@
   {
     "physicalPort": 6,
     "href": "/pinout/ground",
+    "type": "ground",
+    "active": true,
     "title": "",
     "details": "",
     "label": "Ground"
@@ -50,6 +59,7 @@
   {
     "physicalPort": 7,
     "href": "/pinout/pin7_gpio4",
+    "type": "gpio",
     "title": "Wiring Pi pin 7",
     "details": "(GPCLK0)",
     "label": "BCM 4",
@@ -58,6 +68,7 @@
   {
     "physicalPort": 8,
     "href": "/pinout/pin8_gpio14",
+    "type": "gpio",
     "title": "Wiring Pi pin 15",
     "details": "(TXD)",
     "label": "BCM 14",
@@ -66,6 +77,7 @@
   {
     "physicalPort": 9,
     "href": "/pinout/ground",
+    "type": "ground",
     "title": "",
     "details": "",
     "label": "Ground"
@@ -73,6 +85,7 @@
   {
     "physicalPort": 10,
     "href": "/pinout/pin10_gpio15",
+    "type": "gpio",
     "title": "Wiring Pi pin 16",
     "details": "(RXD)",
     "label": "BCM 15",
@@ -81,6 +94,7 @@
   {
     "physicalPort": 11,
     "href": "/pinout/pin11_gpio17",
+    "type": "gpio",
     "title": "Wiring Pi pin 0",
     "details": "",
     "label": "BCM 17",
@@ -89,6 +103,7 @@
   {
     "physicalPort": 12,
     "href": "/pinout/pin12_gpio18",
+    "type": "gpio",
     "title": "Wiring Pi pin 1",
     "details": "(PWM0)",
     "label": "BCM 18",
@@ -97,6 +112,7 @@
   {
     "physicalPort": 13,
     "href": "/pinout/pin13_gpio27",
+    "type": "gpio",
     "title": "Wiring Pi pin 2",
     "details": "",
     "label": "BCM 27",
@@ -105,6 +121,7 @@
   {
     "physicalPort": 14,
     "href": "/pinout/ground",
+    "type": "ground",
     "title": "",
     "details": "",
     "label": "Ground"
@@ -112,6 +129,7 @@
   {
     "physicalPort": 15,
     "href": "/pinout/pin15_gpio22",
+    "type": "gpio",
     "title": "Wiring Pi pin 3",
     "details": "",
     "label": "BCM 22",
@@ -120,6 +138,7 @@
   {
     "physicalPort": 16,
     "href": "/pinout/pin16_gpio23",
+    "type": "gpio",
     "title": "Wiring Pi pin 4",
     "details": "",
     "label": "BCM 23",
@@ -128,6 +147,7 @@
   {
     "physicalPort": 17,
     "href": "/pinout/pin17_3v3_power",
+    "type": "power",
     "title": "",
     "details": "",
     "label": "3v3 Power",
@@ -136,6 +156,7 @@
   {
     "physicalPort": 18,
     "href": "/pinout/pin18_gpio24",
+    "type": "gpio",
     "title": "Wiring Pi pin 5",
     "details": "",
     "label": "BCM 24",
@@ -144,14 +165,17 @@
   {
     "physicalPort": 19,
     "href": "/pinout/pin19_gpio10",
+    "type": "gpio",
     "title": "Wiring Pi pin 12",
     "details": "(MOSI)",
+    "active": true,
     "label": "BCM 10",
     "color": "#D33682"
   },
   {
     "physicalPort": 20,
     "href": "/pinout/ground",
+    "type": "ground",
     "title": "",
     "details": "",
     "label": "Ground"
@@ -159,7 +183,9 @@
   {
     "physicalPort": 21,
     "href": "/pinout/pin21_gpio9",
+    "type": "gpio",
     "title": "Wiring Pi pin 13",
+    "active": true,
     "details": "(MISO)",
     "label": "BCM 9",
     "color": "#D33682"
@@ -167,6 +193,7 @@
   {
     "physicalPort": 22,
     "href": "/pinout/pin22_gpio25",
+    "type": "gpio",
     "title": "Wiring Pi pin 6",
     "details": "",
     "label": "BCM 25",
@@ -175,6 +202,7 @@
   {
     "physicalPort": 23,
     "href": "/pinout/pin23_gpio11",
+    "type": "gpio",
     "title": "Wiring Pi pin 14",
     "details": "(SCLK)",
     "label": "BCM 11",
@@ -183,6 +211,7 @@
   {
     "physicalPort": 24,
     "href": "/pinout/pin24_gpio8",
+    "type": "gpio",
     "title": "Wiring Pi pin 10",
     "details": "(CE0)",
     "label": "BCM 8",
@@ -191,6 +220,7 @@
   {
     "physicalPort": 25,
     "href": "/pinout/ground",
+    "type": "ground",
     "title": "",
     "details": "",
     "label": "Ground"
@@ -198,6 +228,7 @@
   {
     "physicalPort": 26,
     "href": "/pinout/pin26_gpio7",
+    "type": "gpio",
     "title": "Wiring Pi pin 11",
     "details": "(CE1)",
     "label": "BCM 7",
@@ -206,6 +237,7 @@
   {
     "physicalPort": 27,
     "href": "/pinout/pin27_gpio0",
+    "type": "gpio",
     "title": "Wiring Pi pin 30",
     "details": "(ID_SD)",
     "label": "BCM 0",
@@ -214,6 +246,7 @@
   {
     "physicalPort": 28,
     "href": "/pinout/pin28_gpio1",
+    "type": "gpio",
     "title": "Wiring Pi pin 31",
     "details": "(ID_SC)",
     "label": "BCM 1",
@@ -222,6 +255,7 @@
   {
     "physicalPort": 29,
     "href": "/pinout/pin29_gpio5",
+    "type": "gpio",
     "title": "Wiring Pi pin 21",
     "details": "",
     "label": "BCM 5",
@@ -230,6 +264,7 @@
   {
     "physicalPort": 30,
     "href": "/pinout/ground",
+    "type": "ground",
     "title": "",
     "details": "",
     "label": "Ground"
@@ -237,6 +272,7 @@
   {
     "physicalPort": 31,
     "href": "/pinout/pin31_gpio6",
+    "type": "gpio",
     "title": "Wiring Pi pin 22",
     "details": "",
     "label": "BCM 6",
@@ -245,6 +281,7 @@
   {
     "physicalPort": 32,
     "href": "/pinout/pin32_gpio12",
+    "type": "gpio",
     "title": "Wiring Pi pin 26",
     "details": "(PWM0)",
     "label": "BCM 12",
@@ -253,6 +290,7 @@
   {
     "physicalPort": 33,
     "href": "/pinout/pin33_gpio13",
+    "type": "gpio",
     "title": "Wiring Pi pin 23",
     "details": "(PWM1)",
     "label": "BCM 13",
@@ -261,6 +299,7 @@
   {
     "physicalPort": 34,
     "href": "/pinout/ground",
+    "type": "ground",
     "title": "",
     "details": "",
     "label": "Ground"
@@ -268,6 +307,7 @@
   {
     "physicalPort": 35,
     "href": "/pinout/pin35_gpio19",
+    "type": "gpio",
     "title": "Wiring Pi pin 24",
     "details": "(MISO)",
     "label": "BCM 19",
@@ -276,6 +316,7 @@
   {
     "physicalPort": 36,
     "href": "/pinout/pin36_gpio16",
+    "type": "gpio",
     "title": "Wiring Pi pin 27",
     "details": "",
     "label": "BCM 16",
@@ -284,6 +325,7 @@
   {
     "physicalPort": 37,
     "href": "/pinout/pin37_gpio26",
+    "type": "gpio",
     "title": "Wiring Pi pin 25",
     "details": "",
     "label": "BCM 26",
@@ -292,6 +334,7 @@
   {
     "physicalPort": 38,
     "href": "/pinout/pin38_gpio20",
+    "type": "gpio",
     "title": "Wiring Pi pin 28",
     "details": "(MOSI)",
     "label": "BCM 20",
@@ -300,6 +343,7 @@
   {
     "physicalPort": 39,
     "href": "/pinout/ground",
+    "type": "ground",
     "title": "",
     "details": "",
     "label": "Ground"
@@ -307,6 +351,7 @@
   {
     "physicalPort": 40,
     "href": "/pinout/pin40_gpio21",
+    "type": "gpio",
     "title": "Wiring Pi pin 29",
     "details": "(SCLK)",
     "label": "BCM 21",

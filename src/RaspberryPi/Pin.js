@@ -1,17 +1,18 @@
 // @flow
-import React from 'react';
+import React from 'react'
 
-import Picto from './Picto';
+import Picto from './Picto'
+import { Pin as StyledPin } from './styled'
 
-const Pin = ({ id, className, title, label, details, physicalPort, isActive, shape, color, pictoStyle={}, onClick }) => (
-  <div onClick={ onClick } title={ title }>
+const Pin = ({ id, type, className, title, label, details, physicalPort, active, shape, color, pictoStyle = {}, onClick }) => (
+  <StyledPin className={className} data-type={type} onClick={onClick} title={title} active={active}>
     <span>
-      <span className="phys">{ physicalPort }</span>
+      <span className='phys'>{ physicalPort }</span>
       { label }
       { details && <small> { details }</small> }
     </span>
-    <Picto shape={ shape } color={ color } style={ pictoStyle } />
-  </div>
+    <Picto shape={shape} color={color} style={pictoStyle} />
+  </StyledPin>
 )
 
 export default Pin
