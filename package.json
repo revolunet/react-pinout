@@ -9,7 +9,8 @@
     "css",
     "es",
     "lib",
-    "umd"
+    "umd",
+    "demo.png"
   ],
   "scripts": {
     "build": "nwb build-react-component",

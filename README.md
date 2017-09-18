@@ -11,9 +11,9 @@ Heavily inspired from [pinout.xyz](http://pinout.xyz)
 ## Usage
 
 ```js
-import ReactPinout from 'react-pinout'
+import { RaspberryPi } from 'react-pinout'
 
-const RaspberryPi = <ReactPinout pins={ pins } onClick={ pin => redirect(pin.href) } />
+const RaspberryPi = <RaspberryPi pins={ pins } onClick={ pin => redirect(pin.href) } />
 ```
 
 `pins` is an array composed of 40 items :
